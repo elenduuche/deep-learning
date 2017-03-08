@@ -39,6 +39,15 @@ def display_stats(cifar10_dataset_folder_path, batch_id, sample_id):
     if not (0 <= sample_id < len(features)):
         print('{} samples in batch {}.  {} is out of range.'.format(len(features), batch_id, sample_id))
         return None
+    
+    #Start: My analysis code
+    #print('Features[0] data type is {}'.format(features[0]))
+    #image_data = features[0]
+    #image_data[0:5,:,0] = 0
+    #image_data[:,:,1] = 0
+    #image_data[:,:,2] = 0.0
+    #print('New image data after update is {}'.format(image_data))
+    #End: My analysis code
 
     print('\nStats of batch {}:'.format(batch_id))
     print('Samples: {}'.format(len(features)))

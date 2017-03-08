@@ -1,0 +1,5 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "python.pythonPath": "/Users/Elendu/anaconda/envs/dlnd-tf-lab/bin/python",
+    "python.linting.pylintPath": "/Users/Elendu/anaconda/envs/dlnd-tf-lab/bin/pylint"
+}
