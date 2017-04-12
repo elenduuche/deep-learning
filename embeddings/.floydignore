@@ -10,3 +10,12 @@ lib64
 parts
 sdist
 var
+
+# Don't upload local data to Floyd
+checkpoints
+data
+__pycache__
+utils_examples.py
+text8.zip
+
+
