@@ -1,0 +1,3 @@
+lambda just provides an alternative syntax for function definition. The result is a function object, just like the one created by def. However, there are certain things that lambda functions can't do -- like defining new variables. They're good (depending on who you ask) for creating small one-use functions, such as this one.
+
+Once you understand that, then all you have to know is that key accepts a function, calls it on every value in the sequence passed to sorted, and sorts the values according to the order that their corresponding key values would take if they were sorted themselves.
